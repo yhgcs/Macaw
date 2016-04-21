@@ -203,7 +203,7 @@ class PathExampleView: MacawView {
 		 super.addAnimation(animation2, autoPlay: false)
 		 */
 
-		let n = 100
+		let n = 200
 		let g = 800.0
 		var clouds = [Node]()
 		for _ in 0 ... (n - 1) {
@@ -214,7 +214,7 @@ class PathExampleView: MacawView {
 				let x = velocity.x * t
 				let y = velocity.y * t + g * t * t;
 				return Transform.move(100.0 + x, my: 100 + y).scale(0.05, sy: 0.05)
-				}, animationDuration: 10.0)
+				}, animationDuration: 0.5).looped().infiniteLoop()
 			animation.append(flying)
 			clouds.append(cloud)
 		}
