@@ -4,14 +4,11 @@ import Macaw
 class SVGExampleView: MacawView {
     
     required init?(coder aDecoder: NSCoder) {
-        let path = NSBundle.mainBundle().pathForResource("tiger", ofType: "svg")
+        let path = NSBundle.mainBundle().pathForResource("test", ofType: "svg")
         let text = try! String(contentsOfFile: path!, encoding: NSUTF8StringEncoding)
+        let parser = SVG2Macaw(string: text)
         
-        let transform = Transform().move(150, my: 150).scale(0.8, sy: 0.8)
-        let parser = SVGParser(text, pos: transform)
-        let tigerNode = parser.parse()
-        
-        super.init(node: tigerNode, coder: aDecoder)
+        super.init(node: parser.parse(), coder: aDecoder)
     }
     
     required init?(node: Node, coder aDecoder: NSCoder) {

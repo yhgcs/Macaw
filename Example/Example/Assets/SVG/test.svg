@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="5cm" height="4cm" version="1.1"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink">
+     <g>
+       <rect x="10" y="10" width="100" height="100" fill="#0000ff" stroke="#000000" stroke-width="3"/>
+       <text x="10" y="20" font-family="Times New Roman" font-size="24" stroke="#00ff00" fill="#0000ff">SVG text styling</text>
+       <image xlink:href="clothes_basket.png" x="50" y="50" height="50px" width="50px"/>
+     </g>
+     <g>
+       <text x="50" y="200" font-family="Times New Roman" font-size="24" stroke="#00ff00" fill="#0000ff">SVG text styling</text>
+       <image xlink:href="clothes_basket.png" x="150" y="150" height="150px" width="150px"/>
+     </g>
+     <circle x="150" y="150" cx="60" cy="60" r="50" fill="#cccccc" stroke="#006600" stroke-width="10"/>
+     <line x1="20" y1="100"
+          x2="100" y2="20"
+          stroke="#000000"
+          stroke-width="1"/>
+      <path x="100" y="100" d="M-2.96 261.401C-2.96 261.401 -6.48 251.161 0.56 256.601C0.56 256.601 4.943 258.933 3.441 259.481C0.48 260.561 3.441 263.321 -2.96 261.401z" stroke="#0000ff"/>
+      <ellipse x="100" y="300" cx="40" cy="40" rx="30" ry="15" stroke="#006600" stroke-width="2" fill="#00cc00"/>
+      <polyline x="100" y="400" points="10,21 60,21 35,52" stroke="#006600" stroke-width="2" fill="#33cc33"/>
+</svg>

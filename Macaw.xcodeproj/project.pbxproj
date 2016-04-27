@@ -24,6 +24,7 @@
 		57982D531CB508E600111DAA /* PathAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57982D521CB508E600111DAA /* PathAnimation.swift */; };
 		585C04481C27CFB100335FF2 /* MacawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C04471C27CFB100335FF2 /* MacawView.swift */; };
 		66AE19D21CC8C6B300B78B5E /* SVGParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE19D11CC8C6B300B78B5E /* SVGParser.swift */; };
+		66B5F5B61CD0044F00B95100 /* SVG2Macaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B5F5B51CD0044F00B95100 /* SVG2Macaw.swift */; };
 		AD9EDEE3709C1668BED1B1BF /* Pods_Macaw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA114AD1025D7DA0B0DC35A8 /* Pods_Macaw.framework */; };
 		B0086C561C789758008A4F69 /* GroupRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0086C551C789758008A4F69 /* GroupRenderer.swift */; };
 		B0097E081C706CAB00350E43 /* ObservableValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0097E071C706CAB00350E43 /* ObservableValue.swift */; };
@@ -103,6 +104,7 @@
 		57982D521CB508E600111DAA /* PathAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathAnimation.swift; sourceTree = "<group>"; };
 		585C04471C27CFB100335FF2 /* MacawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacawView.swift; sourceTree = "<group>"; };
 		66AE19D11CC8C6B300B78B5E /* SVGParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SVGParser.swift; path = svg/SVGParser.swift; sourceTree = "<group>"; };
+		66B5F5B51CD0044F00B95100 /* SVG2Macaw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SVG2Macaw.swift; path = svg/SVG2Macaw.swift; sourceTree = "<group>"; };
 		8A680FA7BCDE96402C10D8D2 /* Pods-Macaw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Macaw.release.xcconfig"; path = "Pods/Target Support Files/Pods-Macaw/Pods-Macaw.release.xcconfig"; sourceTree = "<group>"; };
 		B0086C551C789758008A4F69 /* GroupRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupRenderer.swift; sourceTree = "<group>"; };
 		B0097E071C706CAB00350E43 /* ObservableValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableValue.swift; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				66AE19D11CC8C6B300B78B5E /* SVGParser.swift */,
+				66B5F5B51CD0044F00B95100 /* SVG2Macaw.swift */,
 			);
 			name = svg;
 			sourceTree = "<group>";
@@ -529,6 +532,7 @@
 				B03275EB1C78772F000BDD33 /* Font.swift in Sources */,
 				B03275E81C78772F000BDD33 /* Color.swift in Sources */,
 				B03275E91C78772F000BDD33 /* Drawable.swift in Sources */,
+				66B5F5B61CD0044F00B95100 /* SVG2Macaw.swift in Sources */,
 				B03275FB1C78772F000BDD33 /* Line.swift in Sources */,
 				B032760A1C78772F000BDD33 /* Transform.swift in Sources */,
 				B032760C1C78772F000BDD33 /* Cursor.swift in Sources */,
