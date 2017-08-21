@@ -124,7 +124,7 @@ open class MacawView: UIView, UIGestureRecognizerDelegate {
     
     // zLayers state
     private var prevAnimatedNodes = [Node]()
-    private var zLayers = [CALayer]()
+    private var zLayers = [Int: CALayer]()
     
     override open func draw(_ rect: CGRect) {
         let ctx = UIGraphicsGetCurrentContext()
@@ -145,8 +145,9 @@ open class MacawView: UIView, UIGestureRecognizerDelegate {
         
         // No animation case
         if animatedNodes.count == 0 || animatedNodes.count > 20 {
-            zLayers.forEach { $0.removeFromSuperlayer() }
+            zLayers.values.forEach { $0.removeFromSuperlayer() }
             zLayers.removeAll()
+            
             prevAnimatedNodes.removeAll()
             
             self.context.cgContext = ctx
@@ -167,9 +168,11 @@ open class MacawView: UIView, UIGestureRecognizerDelegate {
             }
         }
         
-        // Replacing old zLayers
-        // Removing old ones
-        zLayers.forEach { $0.removeFromSuperlayer() }
+        // Updating zLayers
+        //zLayers.forEach { $0.removeFromSuperlayer() }
+        //zLayers.removeAll()
+        
+        var oldLayers = zLayers
         zLayers.removeAll()
         
         // Adding new
@@ -179,7 +182,16 @@ open class MacawView: UIView, UIGestureRecognizerDelegate {
         
         zPositions.append(Int.max)
         var prevZPos = 0
-        for zPos in zPositions {
+        zPositions.forEach { zPos in
+            
+            // Layer with required zPosition already exists
+            if let existingLayer = zLayers[zPos] {
+                oldLayers.removeValue(forKey: zPos)
+                zLayers[zPos] = existingLayer
+                return
+            }
+            
+            // Creating new layer
             let interval = RenderingInterval(from: prevZPos, to: zPos)
             let layer = ShapeLayer()
             
@@ -194,13 +206,16 @@ open class MacawView: UIView, UIGestureRecognizerDelegate {
             let nodeTransform = RenderUtils.mapTransform(AnimationUtils.absolutePosition(node))
             layer.renderTransform = nodeTransform
             
-            zLayers.append(layer)
-            
+            zLayers[zPos] = layer
             prevZPos = zPos
         }
         
+        // Removing obsolete layers
+        oldLayers.values.forEach { $0.removeFromSuperlayer() }
+        oldLayers.removeAll()
         
-        zLayers.forEach{
+        // Updating layers content
+        zLayers.values.forEach{
             self.layer.addSublayer($0)
             $0.setNeedsDisplay()
         }
