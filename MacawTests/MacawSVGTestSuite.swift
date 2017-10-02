@@ -22,7 +22,7 @@ class MacawSVGTestSuite: XCTestCase {
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
-        
+
         let outputDataFile = testSuitePath + "/data.csv"
         do {
             try testsData.write(toFile: outputDataFile, atomically: false, encoding: String.Encoding.utf8)
