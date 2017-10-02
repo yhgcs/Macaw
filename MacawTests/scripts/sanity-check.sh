@@ -1,11 +1,6 @@
 #!/bin/sh
 
-ORIGINAL_DATASET="original-dataset"
-PROCESSED_DATASET="processed-dataset"
-MACAW_SERIALIZER_OUTPUT="macaw-serializer-output"
-DIFF_FOLDER="diff"
-MACAW_PNGS="macaw-pngs"
-REFERENCE_PNG="refpng"
+source settings.sh
 
 if [ ! -d "${ORIGINAL_DATASET}" ]; then
 	echo "[FAILED] Could not find original dataset folder: '${ORIGINAL_DATASET}'. See README file where to get the original dataset from."
