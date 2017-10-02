@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<canvas width="480" height="360"></canvas>
+<script>
+
+var canvas = document.querySelector("canvas"),
+    context = canvas.getContext("2d", {alpha: false});
+
+var image = new Image;
+image.src = "SVG_FILE_TO_PROCESS";
+image.onload = function() {
+  context.fillStyle = "#ffffff";
+  context.fillRect(0, 0, 480, 360);
+  context.drawImage(image, 0, 0, 480, 360);
+  var a = document.createElement("a");
+  a.download = "fallback.png";
+  a.href = canvas.toDataURL("image/png");
+  a.click();
+};
+
+</script>

@@ -1,0 +1,33 @@
+INSTALL
+=======
+
+* Python 2.7
+```
+brew install python
+```
+
+* Selenium
+```
+brew install chromedriver
+```
+
+HOW TO PREPARE DATASET
+======================
+NOTE: You can skip this step and proceed directly to RUN section.
+Original dataset: https://github.com/w3c/web-platform-tests/tree/master/svg/import
+
+1. Run `prepare-dataset.sh` script to remove revision text from SVGs and convert them into PNGs.
+Script `prepare-dataset.sh` calls another script `svg2png.sh` to prepare sample HTML file which will 
+load SVG via javascript and renders it in browser and saves it into PNG. 
+
+prepare-dataset.sh
+  trim-svg.py
+  svg2png.sh
+
+svg2png.sh
+  download.py
+
+RUN
+===
+1. Run `sanity-check.sh` script to verify input data, scripts and everything else.
+2. Run script `convert-and-compare A.svg` to conver A.svg into A.png and compare it with a reference PNG file

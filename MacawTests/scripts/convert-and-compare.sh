@@ -1,0 +1,24 @@
+#!/bin/sh
+
+SVGMACAW=$1 
+MACAW_PNG_DIR="macaw-pngs"
+REFERENCE_PNG_DIR="$PWD/refpng"
+
+PNGNAME=`basename $SVGMACAW`
+PNGNAME="${PNGNAME%.*}.png"
+
+MACAW_PNG=${MACAW_PNG_DIR}/$PNGNAME
+
+REFERENCE_PNG=${REFERENCE_PNG_DIR}/$PNGNAME
+
+DIFF_FOLDER="diff"
+DIFFNAME=$PNGNAME
+DIFF=${DIFF_FOLDER}/$DIFFNAME
+
+# convert to PNG
+./svg2png.sh $SVGMACAW ${MACAW_PNG} >/dev/null 2>&1
+
+# compare PNGs
+diff=`./compare.sh ${MACAW_PNG} ${REFERENCE_PNG} $DIFF`
+echo $diff
+
