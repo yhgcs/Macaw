@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="tiny" id="svg-root" width="100%" height="100%" viewBox="0 0 480 360">
+  <!--======================================================================-->
+  <!--=  SVG 1.1 2nd Edition Test Case                                     =-->
+  <!--======================================================================-->
+  <!--=  Copyright 2009 World Wide Web Consortium, (Massachusetts          =-->
+  <!--=  Institute of Technology, European Research Consortium for         =-->
+  <!--=  Informatics and Mathematics (ERCIM), Keio University).            =-->
+  <!--=  All Rights Reserved.                                              =-->
+  <!--=  See http://www.w3.org/Consortium/Legal/.                          =-->
+  <!--======================================================================-->
+  <d:SVGTestCase xmlns:d="http://www.w3.org/2000/02/svg/testsuite/description/" template-version="1.4" reviewer="SVGWG" author="Jon Ferraiolo" status="accepted" version="$Revision: 1.7 $" testname="$RCSfile: text-intro-04-t.svg,v $">
+    <d:testDescription xmlns="http://www.w3.org/1999/xhtml" href="http://www.w3.org/TR/SVG11/text.html#Introduction">
+        <p>
+          Test basic aspect of internationalized text.
+        </p>
+        <p>
+          Various text strings in various languages appear. The main
+          purpose of the test is to verify that the correct characters
+          appear and that they appear in the correct order and orientation.
+        </p>
+        <p>
+          A future version of this test
+          might include all necessary glyphs as an SVG font.
+        </p>
+    </d:testDescription>
+    <d:operatorScript xmlns="http://www.w3.org/1999/xhtml">
+      <p>
+        Run the test. No interaction required.
+      </p>
+    </d:operatorScript>
+    <d:passCriteria xmlns="http://www.w3.org/1999/xhtml">
+      <p>
+        Correct rendering requires that each character is rendered. It is not required that a given character
+        be rendered with any particular font; just that it is rendered.
+        It may be rendered with the 'missing glyph' if no
+        glyphs are found in the fonts listed in the content, or in any fallback font that is available.
+      </p>
+    </d:passCriteria>
+  </d:SVGTestCase>
+  <title id="test-title">$RCSfile: text-intro-04-t.svg,v $</title>
+  <defs>
+    <font-face font-family="SVGFreeSansASCII" unicode-range="U+0-7F">
+      <font-face-src>
+        <font-face-uri xlink:href="../resources/SVGFreeSans.svg#ascii"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g id="test-body-content" font-family="SVGFreeSansASCII,sans-serif" font-size="18">
+    <text font-family="Arial" font-size="16" fill="blue" x="10" y="20">Test horizontal text.</text>
+    <g font-size="17" font-family="'Arial Hebrew', 'Arial Unicode MS', 'LucidaSansUnicode','MS-Gothic'">
+      <text x="10" y="60">Polish: Mog&#281; je&#347;&#263; szk&#322;o, i mi nie szkodzi.</text>
+      <text x="10" y="90">Russian: &#1071; &#1084;&#1086;&#1075;&#1091; &#1077;&#1089;&#1090;&#1100; &#1089;&#1090;&#1077;&#1082;&#1083;&#1086;, &#1101;&#1090;&#1086; &#1084;&#1085;&#1077; &#1085;&#1077; &#1074;&#1088;&#1077;&#1076;&#1080;&#1090;.</text>
+      <text x="10" y="120" font-size="15">Greek: &#924;&#960;&#959;&#961;&#974; &#957;&#945; &#966;&#940;&#969; &#963;&#960;&#945;&#963;&#956;&#941;&#957;&#945; &#947;&#965;&#945;&#955;&#953;&#940; &#967;&#969;&#961;&#943;&#962; &#957;&#945; &#960;&#940;&#952;&#969; &#964;&#943;&#960;&#959;&#964;&#945;.</text>
+      <!-- Greek and japanese smaller just to make it fit on the line -->
+      <text x="10" y="150">Text "&#1488;&#1504;&#1497; &#1497;&#1499;&#1493;&#1500; &#1500;&#1488;&#1499;&#1493;&#1500; &#1494;&#1499;&#1493;&#1499;&#1497;&#1514; &#1493;&#1494;&#1492; &#1500;&#1488; &#1502;&#1494;&#1497;&#1511; &#1500;&#1497;" is in Hebrew</text>
+      <text x="10" y="180">Yiddish: &#1488;&#1497;&#1498; &#1511;&#1506;&#1503; &#1506;&#1505;&#1503; &#1490;&#1500;&#1488;&#1464;&#1494; &#1488;&#1493;&#1503; &#1506;&#1505; &#1496;&#1493;&#1496; &#1502;&#1497;&#1512; &#1504;&#1497;&#1513;&#1496; &#1520;&#1522;.</text>
+      <text x="10" y="210">Chinese:&#25105;&#33021;&#21534;&#19979;&#29627;&#29827;&#32780;&#19981;&#20260;&#36523;&#20307;&#12290;</text>
+      <text x="10" y="240" font-size="15">Japanese: &#31169;&#12399;&#12460;&#12521;&#12473;&#12434;&#39135;&#12409;&#12425;&#12428;&#12414;&#12377;&#12290;&#12381;&#12428;&#12399;&#31169;&#12434;&#20663;&#12388;&#12369;&#12414;&#12379;&#12435;&#12290;</text>
+    </g>
+  </g>
+  <g font-family="SVGFreeSansASCII,sans-serif" font-size="32">
+    </g>
+  <rect id="test-frame" x="1" y="1" width="478" height="358" fill="none" stroke="#000000"/>
+  <!-- comment out this watermark once the test is approved -->
+  <!--<g id="draft-watermark">
+    <rect x="1" y="1" width="478" height="20" fill="red" stroke="black" stroke-width="1"/>
+    <text font-family="SVGFreeSansASCII,sans-serif" font-weight="bold" font-size="20" x="240"
+      text-anchor="middle" y="18" stroke-width="0.5" stroke="black" fill="white">DRAFT</text>
+  </g>-->
+</svg>
+
