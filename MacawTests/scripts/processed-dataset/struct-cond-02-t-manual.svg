@@ -1,0 +1,547 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="tiny" id="svg-root" width="100%" height="100%" viewBox="0 0 480 360">
+  <!--======================================================================-->
+  <!--=  SVG 1.1 2nd Edition Test Case                                     =-->
+  <!--======================================================================-->
+  <!--=  Copyright 2009 World Wide Web Consortium, (Massachusetts          =-->
+  <!--=  Institute of Technology, European Research Consortium for         =-->
+  <!--=  Informatics and Mathematics (ERCIM), Keio University).            =-->
+  <!--=  All Rights Reserved.                                              =-->
+  <!--=  See http://www.w3.org/Consortium/Legal/.                          =-->
+  <!--======================================================================-->
+  <defs>
+    <font-face font-family="SVGFreeSansASCII" unicode-range="U+0-7F">
+      <font-face-src>
+        <font-face-uri xlink:href="../resources/SVGFreeSans.svg#ascii"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g id="test-body-content" font-family="SVGFreeSansASCII,sans-serif" font-size="18">
+    <g fill="black" stroke="none" font-size="24" font-weight="normal" font-family="Arial, Tahoma, Verdana, 'Arial Unicode MS', Code2000">
+      <!-- a blank one
+<text x="20" y="220" xml:lang="">
+<tspan font-weight="bold" >
+ ?</text>
+<text x="230" y="150" xml:lang="en"></text>
+-->
+      <!-- put sample here for testing -->
+      <switch>
+        <g systemLanguage="af">
+          <text x="20" y="220" xml:lang="af" font-size="16">Waarom kan hulle nie net doodgewoon Afrikaans praat nie?</text>
+          <text x="230" y="150" xml:lang="en">Afrikaans</text>
+        </g>
+        <g systemLanguage="am">
+          <text x="20" y="220" xml:lang="am" font-family="'GF Zemen Unicode',Code2000" font-size="28">&#4616;&#4637;&#4757;&#4853;&#4752;&#4813; &#4768;&#4635;&#4653;&#4763; &#4840;&#4635;&#4845;&#4755;&#4872;&#4649;&#4725;&#4967;</text>
+          <text x="230" y="150" xml:lang="en">Amharic</text>
+        </g>
+        <g systemLanguage="ar">
+          <!-- this is a tiny test so there is no text-anchor, thus rtl text is explicitly positioned -->
+          <text x="20" y="220" xml:lang="ar-SA" font-family=" Tahoma,'MS Farsi','Arial Unicode MS'" font-size="19">&#1604;&#1605;&#1575;&#1584;&#1575; &#1604;&#1575; &#1610;&#1578;&#1603;&#1604;&#1605;&#1608;&#1606; &#1575;&#1604;&#1604;&#1617;&#1594;&#1577; &#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577; &#1601;&#1581;&#1587;&#1576;&#1567;</text>
+          <text x="230" y="150" xml:lang="en">Arabic (SA)</text>
+        </g>
+        <g systemLanguage="bg">
+          <text x="20" y="220" xml:lang="bg" font-size="18">&#1047;&#1072;&#1097;&#1086; &#1090;&#1077; &#1087;&#1088;&#1086;&#1089;&#1090;&#1086; &#1085;&#1077; &#1084;&#1086;&#1075;&#1072;&#1090; &#1076;&#1072; &#1075;&#1086;&#1074;&#1086;&#1088;&#1103;&#1090; &#1073;&#1098;&#1083;&#1075;&#1072;&#1088;&#1089;&#1082;&#1080; ?</text>
+          <text x="230" y="150" xml:lang="en">Bulgarian</text>
+        </g>
+        <g systemLanguage="bn">
+          <text x="20" y="220" xml:lang="bn" font-family="'Arial Unicode MS','UT Bengali Khulna'" font-size="28">&#2451;&#2480;&#2494; &#2503;&#2453;&#2472; &#2476;&#2494;&#2434;&#2482;&#2494; &#2476;&#2482;&#2503;&#2468; &#2474;&#2494;&#2503;&#2480; &#2472;&#2494; ?</text>
+          <text x="230" y="150" xml:lang="en">Bengali</text>
+        </g>
+        <!-- 
+Tibetan needs complex layout: this will not work correctly though the font has the right glyphs: 
+<g systemLanguage="bo">
+					<text x="20" y="220" xml:lang="bo" font-family="'Arial Unicode MS'" font-size="18">
+						
+&#3906;&#3851;&#3938;&#3962;&#3851;&#3926;&#4017;&#3942;&#3851;&#3905;&#3964;&#3851;&#3938;&#3908;&#3851;&#3930;&#3964;&#3942;&#3851; &#3926;&#3964;&#3921;&#3851; &#3942;&#3984;&#3921;&#3851;&#3910;&#3851;&#3921;&#3962;&#3851;&#3906;&#3851;&#3938;&#3908;&#3851;&#3926;&#3940;&#3921;&#3851;&#3904;&#4017;&#3954;&#3851;&#3928;&#3851;&#3938;&#3962;&#3921;&#3853;</text>
+					<text x="230" y="150" xml:lang="en">Tibetan</text>
+				</g>-->
+        <g systemLanguage="ca">
+          <text x="20" y="220" xml:lang="bg" font-size="20">Per qu&#232; no poden simplement parlar en catal&#224; ?</text>
+          <text x="230" y="150" xml:lang="en">Catalan</text>
+        </g>
+        <g systemLanguage="cs">
+          <text x="20" y="220" xml:lang="cs">Pro&#269; prost&#283; nemluv&#237; &#269;esky ?</text>
+          <text x="230" y="150" xml:lang="en">Czech</text>
+        </g>
+        <g systemLanguage="cy">
+          <text x="20" y="220" xml:lang="cy" font-size="20">Pam dydyn nhw ddim yn siarad Cymraeg ?</text>
+          <text x="230" y="150" xml:lang="en">Welsh</text>
+        </g>
+        <g systemLanguage="da">
+          <text x="20" y="220" xml:lang="da">Hvorfor kan de ikke bare&#160;tale dansk ?</text>
+          <text x="230" y="150" xml:lang="en">Danish</text>
+        </g>
+        <!-- need a generic german, too -->
+        <g systemLanguage="de-DE">
+          <text x="20" y="220" xml:lang="de-DE" font-size="22">Warum sprechen sie nicht einfach Deutsch ?</text>
+          <text x="230" y="150" xml:lang="en">German (DE)</text>
+        </g>
+        <g systemLanguage="el">
+          <text x="20" y="220" xml:lang="el-GR" font-size="22">&#924;&#945; &#947;&#953;&#945;&#964;&#943; &#948;&#949;&#957; &#956;&#960;&#959;&#961;&#959;&#973;&#957; &#957;&#945; &#956;&#953;&#955;&#942;&#963;&#959;&#965;&#957; &#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940; ;</text>
+          <text x="230" y="150" xml:lang="en">Greek (modern, GR)</text>
+        </g>
+        <g systemLanguage="en">
+          <text x="20" y="220" xml:lang="en-US">Why can't they just speak English ?</text>
+          <text x="230" y="150" xml:lang="en">English (US)</text>
+        </g>
+        <g systemLanguage="es">
+          <text x="20" y="220" xml:lang="es-ES" font-size="18">&#191;Por qu&#233; no pueden simplemente hablar en castellano ?</text>
+          <text x="230" y="150" xml:lang="en">Spanish (ES)</text>
+        </g>
+        <g systemLanguage="eu">
+          <text x="20" y="220" xml:lang="eu" font-size="21">Zergatik ezin dute&#160; Euzkeraz bakarrik hitzegin?</text>
+          <text x="230" y="150" xml:lang="en">Basque</text>
+        </g>
+        <g systemLanguage="fa">
+          <text x="20" y="220" xml:lang="fa" font-family=" Tahoma,'MS Farsi','Arial Unicode MS'" font-size="22">&#1582;&#1576;&#1548; &#1670;&#1585;&#1575; &#1601;&#1575;&#1585;&#1587;&#1609; &#1589;&#1581;&#1576;&#1578; &#1606;&#1605;&#1609; &#1603;&#1606;&#1606;&#1583;&#1567;</text>
+          <text x="230" y="150" xml:lang="en">Farsi</text>
+        </g>
+        <g systemLanguage="fi">
+          <text x="20" y="220" xml:lang="fi" font-size="20">Miksi he eiv&#228;t yksinkertaisesti puhu suomea ?</text>
+          <text x="230" y="150" xml:lang="en">Finnish</text>
+        </g>
+        <!-- put Canadian French before generic French -->
+        <g systemLanguage="fr">
+          <text x="20" y="220" xml:lang="fr-fR" font-size="17">Pourquoi, tout simplement, ne parlent-ils pas en Fran&#231;ais ?</text>
+          <text x="230" y="150" xml:lang="en">French (FR)</text>
+        </g>
+        <g systemLanguage="gd">
+          <text x="20" y="220" xml:lang="gd" font-size="20">Carson nach eil iad a'bruidhinn na G&#224;idhlige ?</text>
+          <text x="230" y="150" xml:lang="en">Scots Gaelic</text>
+        </g>
+        <g systemLanguage="gu">
+          <text x="20" y="220" xml:lang="gu" font-family="'Arial Unicode MS'" font-size="28">&#2732;&#2726;&#2765;&#2727;&#2750; &#2738;&#2763;&#2709;&#2763; &#2711;&#2753;&#2716;&#2736;&#2750;&#2724;&#2752; &#2709;&#2757;&#2734; &#2728;&#2725;&#2752; &#2732;&#2763;&#2738;&#2724;&#2750;?</text>
+          <text x="230" y="150" xml:lang="en">Gujarti (IN)</text>
+        </g>
+        <g systemLanguage="he">
+          <!-- he or iw, check -->
+          <text x="20" y="220" xml:lang="he" font-family="Tahoma,'Arial Unicode MS'" font-size="22">&#1500;&#1502;&#1492; &#1492;&#1501; &#1508;&#1513;&#1493;&#1496; &#1500;&#1488; &#1502;&#1491;&#1489;&#1512;&#1497;&#1501; &#1506;&#1489;&#1512;&#1497;&#1514; ?</text>
+          <text x="230" y="150" xml:lang="en">Hebrew (modern)</text>
+        </g>
+        <g systemLanguage="hi">
+          <text x="20" y="220" xml:lang="hi" font-family="Mangal,Code2000,'Arial Unicode MS'">&#2351;&#2361; &#2354;&#2379;&#2327; &#2361;&#2367;&#2344;&#2381;&#2342;&#2368; &#2325;&#2381;&#2351;&#2379;&#2306; &#2344;&#2361;&#2368;&#2306; &#2348;&#2379;&#2354; &#2360;&#2325;&#2340;&#2375; &#2361;&#2376;&#2306; ?</text>
+          <text x="230" y="150" xml:lang="en">Hindi</text>
+        </g>
+        <g systemLanguage="hr">
+          <text x="20" y="220" xml:lang="hr">Za&#353;to jednostavno ne govore hrvatski ?</text>
+          <text x="230" y="150" xml:lang="en">Croatian</text>
+        </g>
+        <g systemLanguage="hu">
+          <text x="20" y="220" xml:lang="hu" font-size="22">Mi&#233;rt nem besz&#233;lnek egyszer&#369;en magyarul ?</text>
+          <text x="230" y="150" xml:lang="en">Hungarian</text>
+        </g>
+        <g systemLanguage="hy">
+          <text x="20" y="220" xml:lang="hy" font-family="Sylfaen,Code2000,'Arial Unicode MS'" font-size="22">
+            &#1339;&#1398;&#1401;&#1400;&#1410;&#1374; &#1398;&#1408;&#1377;&#1398;&#1412; &#1401;&#1381;&#1398; &#1389;&#1400;&#1405;&#1400;&#1410;&#1396; &#1344;&#1377;&#1397;&#1381;&#1408;&#1381;&#1398;
+          </text>
+          <text x="230" y="150" xml:lang="en">Armenian</text>
+        </g>
+        <g systemLanguage="id">
+          <text x="20" y="220" xml:lang="id" font-size="18">Mengapa mereka tidak bisa bicara bahasa Indonesia ?</text>
+          <text x="230" y="150" xml:lang="en">Indonesian</text>
+        </g>
+        <g systemLanguage="is">
+          <text x="20" y="220" xml:lang="is" font-size="20">Hvers vegna geta &#254;eir ekki r&#233;ttl&#225;tur tala &#205;slenska ?</text>
+          <text x="230" y="150" xml:lang="en">Icelandic</text>
+        </g>
+        <g systemLanguage="it">
+          <text x="20" y="220" xml:lang="it" font-size="18">Perch&#232; non possono semplicemente parlare italiano ?</text>
+          <text x="230" y="150" xml:lang="en">Italian</text>
+        </g>
+        <g systemLanguage="iu">
+          <!-- unable to distinguish North Baffin Island Inuktitut from 
+			     South/Central Baffin Island Inuktitut
+			     because ISO 3166 codes do not offer any finer 
+			     resolution than 'Canadian' -->
+          <text x="20" y="220" xml:lang="iu" font-family="NunacomU,'Ballymun RO','Arial Unicode MS'" font-size="28">&#5361;&#5307;&#5290;&#5314;&#5251;&#5231;&#5130; &#5123;&#5316;&#5251;&#5198;&#5200; &#5200;&#5123;&#5328;&#5319;&#5421;&#5745;&#5338;&#5222;</text>
+          <text x="230" y="150" xml:lang="en">Inuktitut</text>
+        </g>
+        <g systemLanguage="ja-JP">
+          <text x="20" y="220" xml:lang="ja-JP" font-family="'MS Gothic',&#65325;&#65331; &#12468;&#12471;&#12483;&#12463;,'MS Mincho',&#65325;&#65331; &#26126;&#26397;,Code2000,'Arial Unicode MS',DFP-SMTWSong" font-size="22">&#12394;&#12380;&#12289;&#12415;&#12435;&#12394;&#26085;&#26412;&#35486;&#12434;&#35441;&#12375;&#12390;&#12367;&#12428;&#12394;&#12356;&#12398;&#12363;&#65311;</text>
+          <text x="230" y="150" xml:lang="en">Japanese (JP)</text>
+        </g>
+        <g systemLanguage="jw">
+          <text x="20" y="220" xml:lang="jw" font-size="20">Kenapa&#160;kok&#160;ora&#160;nganggo&#160; basa&#160;Jawa &#160;wae?</text>
+          <text x="230" y="150" xml:lang="en">Javanese</text>
+        </g>
+        <g systemLanguage="ka">
+          <text x="20" y="220" xml:lang="ka" font-family="Sylfaen,Code2000,'Arial Unicode MS'" font-size="20">&#4320;&#4304;&#4322;&#4317;&#4315; &#4304;&#4320; &#4314;&#4304;&#4318;&#4304;&#4320;&#4304;&#4313;&#4317;&#4305;&#4308;&#4316; &#4312;&#4321;&#4312;&#4316;&#4312; &#4325;&#4304;&#4320;&#4311;&#4323;&#4314;&#4304;&#4307; ?</text>
+          <text x="230" y="150" xml:lang="en">Georgian</text>
+        </g>
+        <g systemLanguage="kk">
+          <text x="20" y="220" xml:lang="kk" font-family="'Arial Unicode MS',Code2000">&#1054;&#1083;&#1072;&#1088; &#1085;&#1077;&#1075;&#1077; &#1179;&#1072;&#1079;&#1072;&#1179; &#1090;i&#1083;i&#1085;&#1076;&#1077; &#1089;&#1086;&#1081;&#1083;&#1077;&#1084;&#1077;&#1081;&#1076;i?</text>
+          <text x="230" y="150" xml:lang="en">Kazakh</text>
+        </g>
+        <g systemLanguage="kn">
+          <text x="20" y="220" xml:lang="kn" font-family="'Arial Unicode MS',Code2000" font-size="28">&#3205;&#3253;&#3248;&#3265; &#3221;&#3240;&#3277;&#3240;&#3233; &#3246;&#3262;&#3236;&#3240;&#3262;&#3233;&#3244;&#3257;&#3265;&#3238;&#3250;&#3277;&#3250;&#3262;?</text>
+          <text x="230" y="150" xml:lang="en">Kannada</text>
+        </g>
+        <g systemLanguage="ko">
+          <text x="20" y="220" xml:lang="ko" font-family="GulimChe,&#44404;&#47548;&#52404;,Gulim,&#44404;&#47548;,BatangChe,&#48148;&#53461;&#52404;,Batang,&#48148;&#53461;,Code2000,'Arial Unicode MS'" font-size="15">&#49464;&#44228;&#51032; &#47784;&#46304; &#49324;&#46988;&#46308;&#51060; &#54620;&#44397;&#50612; &#47484; &#51060;&#54644;&#54620;&#45796;&#47732; &#50620;&#47560;&#45208; &#51339;&#51012;&#44620;?</text>
+          <text x="230" y="150" xml:lang="en">Korean</text>
+        </g>
+        <g systemLanguage="ky">
+          <text x="20" y="220" xml:lang="ky" font-family="'Arial Unicode MS',Code2000">&#1045;&#1084;&#1085;&#1077; &#1199;&#1095;&#1199;&#1085; &#1072;&#1083;&#1072;&#1088; &#1082;&#1099;&#1088;&#1075;&#1099;&#1079;&#1095;&#1072; &#1089;&#1199;&#1081;&#1083;&#1073;&#1081;&#1090;?</text>
+          <text x="230" y="150" xml:lang="en">Kirghiz</text>
+        </g>
+        <g systemLanguage="lt">
+          <text x="20" y="220" xml:lang="lt" font-size="28">Kod&#279;l gi jie nekalba lietuvi&#353;kai ?</text>
+          <text x="230" y="150" xml:lang="en">Lithuanian</text>
+        </g>
+        <g systemLanguage="mk">
+          <text x="20" y="220" xml:lang="mk" font-size="20">&#1047;&#1086;&#1096;&#1090;&#1086; &#1090;&#1080;&#1077; &#1077;&#1076;&#1085;&#1086;&#1089;&#1090;&#1072;&#1074;&#1085;&#1086; &#1085;&#1077; &#1075;&#1086;&#1074;&#1086;&#1088;&#1072;&#1090; &#1084;&#1072;&#1082;&#1077;&#1076;&#1086;&#1085;&#1089;&#1082;&#1080; ?</text>
+          <text x="230" y="150" xml:lang="en">Macedonian</text>
+        </g>
+        <g systemLanguage="mr">
+          <text x="20" y="220" xml:lang="mr" font-family="Mangal,Code2000,'Arial Unicode MS'" font-size="26">&#2354;&#2379;&#2325;&#2366;&#2306;&#2344;&#2366; &#2350;&#2352;&#2366;&#2336;&#2368; &#2325;&#2366; &#2348;&#2379;&#2354;&#2340;&#2366; &#2351;&#2375;&#2340; &#2344;&#2366;&#2361;&#2368;?</text>
+          <text x="230" y="150" xml:lang="en">Marathi</text>
+        </g>
+        <g systemLanguage="nl">
+          <text x="20" y="220" xml:lang="nl" font-size="21">Waarom spreken ze niet gewoon Nederlands ?</text>
+          <text x="230" y="150" xml:lang="en">Dutch</text>
+        </g>
+        <g systemLanguage="no">
+          <text x="20" y="220" xml:lang="no" font-size="21">Hvorfor kan de ikke bare snakke norsk ?</text>
+          <text x="230" y="150" xml:lang="en">Norwegian</text>
+        </g>
+        <g systemLanguage="or">
+          <text x="20" y="220" xml:lang="or" font-family="'Arial Unicode MS',Code2000" font-size="26">&#2872;&#2887;&#2862;&#2878;&#2856;&#2887; &#2825;&#2849;&#2879;&#2863;&#2878; &#2864;&#2887; &#2837;&#2873;&#2879;&#2856;&#2893;&#2837;&#2879; &#2837;&#2873;&#2879;&#2860;&#2887; &#2856;&#2873;&#2879;&#2817;?</text>
+          <text x="230" y="150" xml:lang="en">Oriya</text>
+        </g>
+        <g systemLanguage="pl">
+          <text x="20" y="220" xml:lang="pl">Dlaczego oni nie m&#243;wi&#261; po polsku ?</text>
+          <text x="230" y="150" xml:lang="en">Polish</text>
+        </g>
+        <!-- test two specific types of Portugese, then a generic alternative -->
+        <g systemLanguage="pt-PT">
+          <text x="20" y="220" xml:lang="pt-PT" font-size="18">Porque &#233; que eles n&#227;o falam simplesmente em Portugu&#234;s ?</text>
+          <text x="230" y="150" xml:lang="en">Portugese (PT)</text>
+        </g>
+        <g systemLanguage="pt-BR">
+          <text x="20" y="220" xml:lang="pt-BR" font-size="17">Porque &#233; que eles n&#227;o falam em Portugu&#234;s (do Brasil) ?</text>
+          <text x="230" y="150" xml:lang="en">Portugese (BR)</text>
+        </g>
+        <g systemLanguage="pt">
+          <text x="20" y="220" xml:lang="pt-PT" font-size="18">Porque &#233; que eles n&#227;o falam simplesmente em Portugu&#234;s ?</text>
+          <text x="230" y="150" xml:lang="en">Portugese</text>
+        </g>
+        <g systemLanguage="ro">
+          <text x="20" y="220" xml:lang="ro">De ce ei nu vorbesc moldovene&#351;te ?</text>
+          <text x="230" y="150" xml:lang="en">Romanian</text>
+        </g>
+        <g systemLanguage="ru">
+          <text x="20" y="220" xml:lang="ru">&#1055;&#1086;&#1095;&#1077;&#1084;&#1091; &#1078;&#1077; &#1086;&#1085;&#1080; &#1085;&#1077; &#1075;&#1086;&#1074;&#1086;&#1088;&#1103;&#1090; &#1087;&#1086;-&#1088;&#1091;&#1089;&#1089;&#1082;&#1080; ?</text>
+          <text x="230" y="150" xml:lang="en">Russian</text>
+        </g>
+        <g systemLanguage="sa">
+          <text x="20" y="220" xml:lang="sa" font-family="Mangal,Code2000,'Arial Unicode MS'" font-size="26">&#2340;&#2375; &#2325;&#2367;&#2306; &#2360;&#2306;&#2360;&#2381;&#2325;&#2371;&#2340;&#2307; &#2350;&#2366;&#2350; &#2357;&#2342;&#2344;&#2381;&#2340;&#2367; ?</text>
+          <text x="230" y="150" xml:lang="en">Sanskrit</text>
+        </g>
+        <g systemLanguage="sr">
+          <text x="20" y="220" xml:lang="sr">Za&#353;to jednostavno ne govore srpski ?</text>
+          <text x="230" y="150" xml:lang="en">Serbian</text>
+        </g>
+        <g systemLanguage="si">
+          <text x="20" y="220" xml:lang="si" font-family="'Andale Mono WT J'" font-size="26">&#3461;&#3536;&#3514;&#3538; &#3476;&#3520;&#3540;&#3505;&#3530;&#3495; &#3465;&#3458;&#3484;&#3515;&#3538;&#3523; &#3482;&#3501;&#3535; &#3547;&#3505;&#3510; ?</text>
+          <text x="230" y="150" xml:lang="en">Sinhalese</text>
+          <!-- Sinhalese needs somewhat complex layout (many paired special cases, see 
+http://www-texdev.mpce.mq.edu.au/l2h/indic/Sinhala/lreport/node1.html 
+so this 'chart' font is not entirely suitable-->
+        </g>
+        <g systemLanguage="sl">
+          <text x="20" y="220" xml:lang="sl">Zakaj vendar ne govorijo slovensko ?</text>
+          <text x="230" y="150" xml:lang="en">Slovenian</text>
+        </g>
+        <g systemLanguage="sq">
+          <text x="20" y="220" xml:lang="sq">Pse nuk duan t&#235; flasin vet&#235;m shqip ?</text>
+          <text x="230" y="150" xml:lang="en">Albanian</text>
+        </g>
+        <g systemLanguage="sv">
+          <text x="20" y="220" xml:lang="sv">Varf&#246;r pratar dom inte bara svenska ?</text>
+          <text x="230" y="150" xml:lang="en">Swedish</text>
+        </g>
+        <g systemLanguage="ta">
+          <text x="20" y="220" xml:lang="ta" font-family="Latha,'Arial Unicode MS'" font-size="20">&#2949;&#2997;&#2992;&#3021;&#2965;&#2995;&#3021; &#2959;&#2985;&#3021; &#2980;&#2990;&#3007;&#2996;&#3007;&#2994;&#3021; &#2986;&#3015;&#2970;&#2965;&#3021;&#2965;&#3010;&#2975;&#3006;&#2980;&#3009; ?</text>
+          <text x="230" y="150" xml:lang="en">Tamil</text>
+        </g>
+        <g systemLanguage="te">
+          <text x="20" y="220" xml:lang="te" font-family="'Arial Unicode MS'">
+            &#3108;&#3142;&#3122;&#3137;&#3095;&#3137; &#3122;&#3147; &#3086;&#3074;&#3110;&#3137;&#3093;&#3137; &#3118;&#3134;&#3103;&#3149;&#3122;&#3134;&#3105;&#3120;&#3137;?
+          </text>
+          <text x="230" y="150" xml:lang="en">Telugu</text>
+        </g>
+        <g systemLanguage="tg">
+          <text x="20" y="220" xml:lang="tg" font-size="20">&#268;aro onho ba zaboni to&#269;iki gap namezanand?</text>
+          <text x="230" y="150" xml:lang="en">Tajik</text>
+        </g>
+        <g systemLanguage="th">
+          <text x="20" y="220" xml:lang="th" font-family="Tahoma,CordiaUPC,BrowalliaUPC,DilleniaUPC,EucrosiaUPC,FreesiaUPC,JasmineUPC, KodChiangUPC,LilyUPC,'Arial Unicode MS'" font-size="28">&#3607;&#3635;&#3652;&#3617;&#3648;&#3586;&#3634;&#3606;&#3638;&#3591;&#3652;&#3617;&#3656;&#3614;&#3641;&#3604; &#3616;&#3634;&#3625;&#3634;&#3652;&#3607;&#3618; </text>
+          <text x="230" y="150" xml:lang="en">Thai</text>
+        </g>
+        <g systemLanguage="tl">
+          <text x="20" y="220" xml:lang="tl" font-size="19">Bakit hindi na lang sila magsalita ng Tagalog ?</text>
+          <text x="230" y="150" xml:lang="en">Tagalog (Filipino)</text>
+        </g>
+        <g systemLanguage="tr">
+          <text x="20" y="220" xml:lang="tr">Neden T&#252;rk&#231;e konu&#351;am&#305;yorlar?</text>
+          <text x="230" y="150" xml:lang="en">Turkish</text>
+        </g>
+        <g systemLanguage="tt">
+          <text x="20" y="220" xml:lang="tt" font-family="'Arial Unicode MS',Code2000" font-size="22">&#1053;&#1080;&#1096;&#1083;&#1241;&#1087; &#1086;&#1083;&#1072;&#1088; &#1090;&#1072;&#1090;&#1072;&#1088;&#1095;&#1072; &#1089;&#1199;&#1083;&#1241;&#1096;&#1072; &#1072;&#1083;&#1084;&#1099;&#1081;&#1083;&#1072;&#1088;?</text>
+          <text x="230" y="150" xml:lang="en">Tatar</text>
+        </g>
+        <g systemLanguage="uk">
+          <text x="20" y="220" xml:lang="uk">&#1063;&#1086;&#1084;&#1091; &#1073; &#1111;&#1084; &#1085;&#1077; &#1088;&#1086;&#1079;&#1084;&#1086;&#1074;&#1083;&#1103;&#1090;&#1080; &#1091;&#1082;&#1088;&#1072;&#1111;&#1085;&#1089;&#1100;&#1082;&#1086;&#1102; ?</text>
+          <text x="230" y="150" xml:lang="en">Ukranian</text>
+        </g>
+        <g systemLanguage="ur-IN">
+          <text x="20" y="220" xml:lang="ur-IN" font-family=" Tahoma,'MS Farsi','Arial Unicode MS'" font-size="22">&#65254;&#65268;&#65259; &#65264;&#65176;&#65248;&#65261;&#65170; &#65254;&#65268;&#65260;&#65256; &#65254;&#65261;&#65268;&#65244; &#65262;&#65194;&#65197;&#65155; &#1576;&#1587; &#65262;&#65257; &#65247;&#65262;&#64402;&#1567;</text>
+          <text x="230" y="150" xml:lang="en">Urdu (IN)</text>
+        </g>
+        <g systemLanguage="ur-PK">
+          <text x="20" y="220" xml:lang="ur-PK" font-family=" Tahoma,'MS Farsi','Arial Unicode MS'" font-size="19">&#65254;&#65268;&#65259; &#65264;&#65176;&#65248;&#65261;&#65170; &#65254;&#65268;&#65260;&#65256; &#65254;&#65261;&#65268;&#65244; &#65262;&#65194;&#65197;&#65155; &#1576;&#1587; &#65262;&#65257; &#65247;&#65262;&#64402;&#1567;</text>
+          <text x="230" y="150" xml:lang="en">Urdu (PK)</text>
+        </g>
+        <!-- should have a generic Urdu here for when user preference is Urdu but neither Pakistan Urdu nor Indian Urdu -->
+        <g systemLanguage="uz">
+          <text x="20" y="220" xml:lang="uz" font-size="22">Nega ular uzbek tilinda gapirmaidilar?</text>
+          <text x="230" y="150" xml:lang="en">Uzbek</text>
+        </g>
+        <g systemLanguage="vi">
+          <text x="20" y="220" xml:lang="vi" font-family="Tahoma,Verdana,'Verdana Ref','Arial Unicode MS'" font-size="22">Ta&#803;i sao ho&#803; kh&#244;ng th&#234;&#777; chi&#777; no&#769;i ti&#234;&#769;ng Vi&#234;&#803;t ?</text>
+          <text x="230" y="150" xml:lang="en">Vietnamese</text>
+        </g>
+        <g systemLanguage="yi">
+          <text x="20" y="220" xml:lang="yi" font-family="Tahoma,'Arial Unicode MS'" font-size="22">&#1508;&#1471;&#1488;&#1463;&#1512;&#1520;&#1488;&#1464;&#1505; &#1512;&#1506;&#1491;&#1496; &#1502;&#1506;&#1503; &#1504;&#1497;&#1496; &#1508;&#1468;&#1513;&#1493;&#1496; &#1497;&#1497;&#1460;&#1491;&#1497;&#1513; ?</text>
+          <text x="230" y="150" xml:lang="en">Yiddish</text>
+        </g>
+        <g systemLanguage="zh-CN">
+          <text x="20" y="220" font-family="'MS Hei','MS Song',LiSu,&#38582;&#20070;,Code2000,'Arial Unicode MS'" font-size="26" xml:lang="zh-CN">&#20182;&#20204;&#20026;&#20160;&#20040;&#19981;&#35828;&#20013;&#25991; &#65288;&#20013;&#22269;&#65289; &#65311;</text>
+          <text x="230" y="150" xml:lang="en">Chinese (CN)</text>
+        </g>
+        <g systemLanguage="zh-TW">
+          <text x="20" y="220" xml:lang="zh-TW" font-family="MingLiU,&#32048;&#26126;&#39636;,PMingLiU,&#26032;&#32048;&#26126;&#39636;,DFP-SMTWSong,Code2000,'Arial Unicode MS'" font-size="26">&#20182;&#20497;&#29234;&#20160;&#40637;&#19981;&#35498;&#20013;&#25991;&#65288;&#21488;&#28771;&#65289;&#65311;</text>
+          <text x="230" y="150" xml:lang="en">Chinese (TW)</text>
+        </g>
+        <g>
+          <!-- the default case, try three languages of W3C host institutions -->
+          <text x="90" y="100" fill="#700" font-size="14">You have no (matching) language preference set</text>
+          <text x="20" y="180" xml:lang="ja-JP" font-family="MS Gothic,&#65325;&#65331; &#12468;&#12471;&#12483;&#12463;,MS Mincho,&#65325;&#65331; &#26126;&#26397;,Code2000,'Arial Unicode MS',DFP-SMTWSong" font-size="20">&#12394;&#12380;&#12289;&#12415;&#12435;&#12394;&#26085;&#26412;&#35486;&#12434;&#35441;&#12375;&#12390;&#12367;&#12428;&#12394;&#12356;&#12398;&#12363;&#65311;</text>
+          <text x="20" y="220" xml:lang="en-US">Why can't they just speak English ?</text>
+          <text x="20" y="260" xml:lang="fr-fR" font-size="16">Pourquoi, tout simplement, ne parlent-ils pas en Fran&#231;ais ?</text>
+        </g>
+      </switch>
+      <!-- action item was to make a switch "for all ISO 639-1 language codes",
+     a large task not completed. But there is enough here to make a good test case, 
+     including 19 of the top 20 langiuages by number of speakers (except Punjabi).
+     
+     Here is the full list (trailing * indicates language included in this test), 
+     accurate as of October 22, 2002 from the registration authority:
+      http://lcweb.loc.gov/standards/iso639-2/langcodes.html
+
+  aa Afar
+  ab Abkhazian
+  af Afrikaans *
+  am Amharic *
+  ar Arabic *
+  as Assamese
+  ae Avestan
+  ay Aymara
+  az Azerbaijani
+
+  ba Bashkir
+  be Byelorussian
+  bg Bulgarian *
+  bh Bihari
+  bi Bislama
+  bn Bengali [Bangla] *
+  bo Tibetan *
+  br Breton
+  bs Bosnian
+
+  ca Catalan *
+  ce Chechen 
+  ch Chamorro
+  co Corsican
+  cs Czech *
+  cu Church Slavic
+  cv Chuvash
+  cy Welsh *
+
+  da Danish *
+  de German *
+  dz Dzongkha [Bhutani]
+
+  el Greek, Modern (1453-) *
+  en English, Modern *
+  eo Esperanto
+  es Spanish *
+  et Estonian
+  eu Basque *
+
+  fa Persian (Farsi) *
+  fi Finnish *
+  fj Fijian
+  fo Faeroese
+  fr French, Modern *
+  fy Frisian
+
+  ga Irish
+  gd Scots Gaelic *
+  gl Gallegan [Galician]
+  gn Guarani
+  gu Gujarati *
+  gv Manx
+
+  ha Hausa
+  he Hebrew *
+  hi Hindi *
+  ho Hiri Motu
+  hr Croatian *
+  hu Hungarian *
+  hy Armenian *
+  hz Herero
+
+  ia Interlingua
+  id Indonesian *
+  ie Interlingue
+  ik Inupiak
+  is Icelandic *
+  it Italian *
+  iu Inuktitut *
+  iw Hebrew *
+
+  ja Japanese *
+  jw Javanese
+
+  ka Georgian *
+  ki Kikuyu
+  kj Kuanyama
+  kk Kazakh *
+  kl Kalaallisut [Greenlandic]
+  km Khmer [Cambodian]
+  kn Kannada *
+  ko Korean *
+  ks Kashmiri
+  ku Kurdish
+  kv Komi
+  kw Cornish
+  ky Kirghiz *
+
+  la Latin
+  ln Lingala
+  lo Lao [Laothian]
+  lt Lithuanian *
+  lv Latvian [Lettish]
+
+  mg Malagasy
+  mh Marshall
+  mi Maori
+  mk Macedonian *
+  ml Malayalam
+  mn Mongolian
+  mo Moldavian
+  mr Marathi *
+  ms Malay
+  mt Maltese
+  my Burmese
+
+  na Nauru
+  nb Norwegian Bokmal
+  nd Ndebele, North
+  ne Nepali
+  ng Ndonga
+  nl Dutch *
+  nn Norwegian Nynorsk
+  no Norwegian *
+  nr Ndebele, South
+  nv Navajo
+  ny Chichewa~@Nyanja  
+
+  oc Occitan (post 1500); Provencal
+  om Oromo [Afan]
+  or Oriya *
+  os Ossetian; Ossetic
+
+  pa Panjabi
+  pi Pali
+  pl Polish *
+  ps Pushto [Pashto]
+  pt Portuguese *
+
+  qu Quechua
+
+  rm Rhaeto-Romance
+  rn Kirundi
+  ro Romanian *
+  ru Russian *
+  rw Kinyarwanda
+
+  sa Sanskrit *
+  sc Sardinian
+  sd Sindhi
+  se Northern Sami
+  sg Sangro
+  sr Serbian *
+  si Sinhalese *
+  sk Slovak
+  sl Slovenian *
+  sm Samoan
+  sn Shona
+  so Somali
+  sq Albanian *
+  sr Serbian
+  ss Swati [Siswati]
+  st Sotho, Southern  [Sesotho]
+  su Sundanese
+  sv Swedish *
+  sw Swahili
+
+  ta Tamil *
+  te Tegulu *
+  tg Tajik *
+  th Thai *
+  ti Tigrinya
+  tk Turkmen
+  tl Tagalog *
+  tn Tswana [Setswana]  
+  to Tonga
+  tr Turkish *
+  ts Tsonga
+  tt Tatar *
+  tw Twi
+
+  ug Uighur
+  uk Ukrainian *
+  ur Urdu *
+  uz Uzbek *
+
+  vi Vietnamese *
+  vo Volapuk
+
+  wo Wolof
+
+  xh Xhosa
+
+  yi Yiddish *
+  yo Yoruba
+
+  za Zhuang
+  zh Chinese *
+  zu Zulu
+
+note: http://msdn.microsoft.com/workshop/management/ISO639codes.htm is obselete and incorrect
+
+-->
+    </g>
+  </g>
+  <g font-family="SVGFreeSansASCII,sans-serif" font-size="32">
+    </g>
+  <rect id="test-frame" x="1" y="1" width="478" height="358" fill="none" stroke="#000000"/>
+  <!-- comment out this watermark once the test is approved -->
+  <!--<g id="draft-watermark">
+    <rect x="1" y="1" width="478" height="20" fill="red" stroke="black" stroke-width="1"/>
+    <text font-family="SVGFreeSansASCII,sans-serif" font-weight="bold" font-size="20" x="240"
+      text-anchor="middle" y="18" stroke-width="0.5" stroke="black" fill="white">DRAFT</text>
+  </g>-->
+</svg>
+
