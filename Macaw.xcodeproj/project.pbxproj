@@ -1155,7 +1155,6 @@
 		C45BEF721F8203F7004CF295 /* types-dom-svgnumberlist-01-f-manual.svg */ = {isa = PBXFileReference; lastKnownFileType = text; path = "types-dom-svgnumberlist-01-f-manual.svg"; sourceTree = "<group>"; };
 		C45BEF731F8203F7004CF295 /* types-dom-svgstringlist-01-f-manual.svg */ = {isa = PBXFileReference; lastKnownFileType = text; path = "types-dom-svgstringlist-01-f-manual.svg"; sourceTree = "<group>"; };
 		C45BEF741F8203F7004CF295 /* types-dom-svgtransformable-01-f-manual.svg */ = {isa = PBXFileReference; lastKnownFileType = text; path = "types-dom-svgtransformable-01-f-manual.svg"; sourceTree = "<group>"; };
->>>>>>> Remove unnecessary tests and correct svg list file
 		C4820B171F458D0E008CE0FF /* SVGSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGSerializer.swift; sourceTree = "<group>"; };
 		C4820B191F458D64008CE0FF /* MacawSVGTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacawSVGTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
