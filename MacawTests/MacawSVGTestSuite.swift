@@ -7,20 +7,22 @@ import XCTest
 class MacawSVGTestSuite: XCTestCase {
     
     fileprivate var testsData: String = ""
+    fileprivate var testSuitePath: String = ""
     
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
         super.setUp()
+        if let path = getSuiteFolder() {
+            testSuitePath = path
+        } else {
+            XCTAssert(false, "Failed to locate test suite folder.")
+        }
     }
     
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
-
-        guard let testSuitePath = ProcessInfo.processInfo.environment["TEST_SUITE_DIR"] else {
-            XCTAssert(false, "Failed to get test suite path from TEST_SUITE_DIR environment variable.")
-            return
-        }
+        
         let outputDataFile = testSuitePath + "/data.csv"
         do {
             try testsData.write(toFile: outputDataFile, atomically: false, encoding: String.Encoding.utf8)
@@ -42,19 +44,26 @@ class MacawSVGTestSuite: XCTestCase {
             }        } catch {
                 print(error)
         }
-         
+        
     }
     
-
-    func testSVGTest() {
-        // IMPORTANT: correct path according to your environment
-        let macawOutputDir = "macaw-serializer-output/"
-        guard let testSuitePath = ProcessInfo.processInfo.environment["TEST_SUITE_DIR"] else {
-            XCTAssert(false, "Failed to get test suite path from TEST_SUITE_DIR environment variable.")
-            return
-        }
+    func getSuiteFolder () -> String? {
         let bundle = Bundle(for: type(of: TestUtils()))
+        if let filepath = bundle.path(forResource: "settings", ofType: "txt") {
+            do {
+                let contents = try String(contentsOfFile: filepath)
+                return contents.trimmingCharacters(in: .whitespacesAndNewlines) + "/MacawTests/scripts"
+            } catch {
+                return .none
+            }
+        }
+        return .none
+    }
+    
+    func testSVGTest() {
         
+        let macawOutputDir = "macaw-serializer-output"
+        let bundle = Bundle(for: type(of: TestUtils()))
         if let path = bundle.path(forResource: "svglist", ofType: "txt") {
             do {
                 let data = try String(contentsOfFile: path, encoding: .utf8)
@@ -62,7 +71,7 @@ class MacawSVGTestSuite: XCTestCase {
                 for name in myStrings {
                     print("processing: ", name)
                     if !name.isEmpty {
-                        let destination = testSuitePath + "/" + macawOutputDir + name + ".svg"
+                        let destination = testSuitePath + "/" + macawOutputDir + "/" + name + ".svg"
                         parseAndSave(from: name, to: destination)
                         let task = Process()
                         task.currentDirectoryPath = testSuitePath
@@ -89,4 +98,5 @@ class MacawSVGTestSuite: XCTestCase {
             }
         }
     }
+    
 }
