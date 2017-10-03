@@ -10,8 +10,8 @@ class MacawSVGTestSuite: XCTestCase {
     fileprivate var testSuitePath: String = ""
     
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
         super.setUp()
+        
         if let path = getSuiteFolder() {
             testSuitePath = path
         } else {
@@ -20,7 +20,6 @@ class MacawSVGTestSuite: XCTestCase {
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
         let outputDataFile = testSuitePath + "/data.csv"
         do {
