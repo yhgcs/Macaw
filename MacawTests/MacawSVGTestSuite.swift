@@ -1,3 +1,4 @@
+#if os(OSX)
 
 import AppKit
 
@@ -98,3 +99,4 @@ class MacawSVGTestSuite: XCTestCase {
     }
     
 }
+#endif

@@ -17,7 +17,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "echo &quot;${SRCROOT}&quot; &gt; &quot;${CONFIGURATION_BUILD_DIR}/MacawTests.xctest/Contents/Resources/settings.txt&quot;">
+               scriptText = "echo &quot;${SRCROOT}&quot; &gt; &quot;${CONFIGURATION_BUILD_DIR}/MacawTests.xctest/settings.txt&quot;&#10;echo &quot;${SRCROOT}&quot; &gt; &quot;${CONFIGURATION_BUILD_DIR}/MacawTests.xctest/Contents/Resources/settings.txt&quot;">
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
