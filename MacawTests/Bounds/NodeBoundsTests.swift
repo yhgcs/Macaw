@@ -72,6 +72,11 @@ class NodeBoundsTests: XCTestCase {
         checkBounds(rect1: shape.bounds(), rect2: targetRect)
     }
     
+    func testPathBounds() {
+        let node = MoveTo(x: 101.9, y:40.5).c(0, -1.8, 1.5, -3.3, 3.3, -3.3).s(3.3, 1.5, 3.3, 3.3).c(0, 1.8, -1.5, 3.3, -3.3, 3.3).s(-3.3, -1.5, -3.3, -3.3).V(40.5).close().build()
+        XCTAssert(node.bounds().x == 0 && node.bounds().y == 0.0 && node.bounds().h == 43.8 && node.bounds().w == 108.5)
+    }
+
     func testShapePath() {
         let segment = PathSegment(type: .M, data: [0, 0])
         var builder = PathBuilder(segment: segment)
