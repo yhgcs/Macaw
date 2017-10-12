@@ -6,9 +6,7 @@
 	.st0{fill:#FFFFFF;stroke:#231F20;stroke-width:1.5;stroke-miterlimit:10;}
 </style>
 <!--
-	<rect x="-31" y="-1" width="141.44" height="111.25" fill="none" stroke="black"/>
+<rect x="0" y="0" width="70" height="106.5" fill="none" stroke="black"/>
 -->
-	<rect x="0" y="0" width="70" height="106.5" fill="none" stroke="black"/>
-		<path class="st0" d="M43.2,105h22c2.3,0,4.1-1.8,4.1-4.1V80.2c0-2.3-1.8-4.1-4.1-4.1h-22c-2.3,0-4.1,1.8-4.1,4.1v20.7
-			C39.1,103.2,41,105,43.2,105z"/>
+<path class="st0" d="M43.2,105h22c2.3,0,4.1-1.8,4.1-4.1V80.2c0-2.3-1.8-4.1-4.1-4.1h-22c-2.3,0-4.1,1.8-4.1,4.1v20.7C39.1,103.2,41,105,43.2,105z"/>
 </svg>
