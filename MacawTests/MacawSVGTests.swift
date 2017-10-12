@@ -20,6 +20,10 @@ class MacawSVGTests: XCTestCase {
             let node = try SVGParser.parse(bundle:bundle, path: "pathbounds")
             if let bounds = node.bounds() {
                 print(bounds.cgRect().origin)
+                print("x =", bounds.x)
+                print("y =", bounds.y)
+                print("w =", bounds.w)
+                print("h =", bounds.h)
             }
             XCTAssert(SVGSerializer.serialize(node: node) == ellipseReferenceContent)
         } catch {
