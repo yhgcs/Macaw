@@ -12,7 +12,21 @@ class MacawSVGTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-
+    
+    func testSVGPathBounds() {
+        let bundle = Bundle(for: type(of: TestUtils()))
+        let ellipseReferenceContent = ""
+        do {
+            let node = try SVGParser.parse(bundle:bundle, path: "pathbounds")
+            if let bounds = node.bounds() {
+                print(bounds.cgRect().origin)
+            }
+            XCTAssert(SVGSerializer.serialize(node: node) == ellipseReferenceContent)
+        } catch {
+            print(error)
+        }
+    }
+    
     func testTextBasicTransform() {
         let referenceContent = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\"  ><g><g transform=\"translate(100,100)\" ><text    dominant-baseline=\"text-before-edge\"  fill=\"black\" transform=\"matrix(0.707106781186548,-0.707106781186547,0.707106781186547,0.707106781186548,0.0,0.0)\" >Point</text></g></g></svg>"
         let text1 = Text(text: "Point")

@@ -267,6 +267,7 @@
 		C4153A8F1F8793DE001BA5EE /* small-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C4153A8E1F8793DD001BA5EE /* small-logo.png */; };
 		C4820B181F458D0E008CE0FF /* SVGSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4820B171F458D0E008CE0FF /* SVGSerializer.swift */; };
 		C4820B1A1F458D64008CE0FF /* MacawSVGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4820B191F458D64008CE0FF /* MacawSVGTests.swift */; };
+		C4BD40B61F8E7905003034F0 /* pathbounds.svg in Resources */ = {isa = PBXBuildFile; fileRef = C4BD40B51F8E7904003034F0 /* pathbounds.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -447,6 +448,7 @@
 		C4153A8E1F8793DD001BA5EE /* small-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "small-logo.png"; sourceTree = "<group>"; };
 		C4820B171F458D0E008CE0FF /* SVGSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGSerializer.swift; sourceTree = "<group>"; };
 		C4820B191F458D64008CE0FF /* MacawSVGTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacawSVGTests.swift; sourceTree = "<group>"; };
+		C4BD40B51F8E7904003034F0 /* pathbounds.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pathbounds.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -523,6 +525,7 @@
 		57CAB1241D7832E000FD8E47 /* svg */ = {
 			isa = PBXGroup;
 			children = (
+				C4BD40B51F8E7904003034F0 /* pathbounds.svg */,
 				C4153A8E1F8793DD001BA5EE /* small-logo.png */,
 				C410148D1F834D280022EE44 /* style.svg */,
 				57CAB1251D7832E000FD8E47 /* circle.svg */,
@@ -1013,6 +1016,7 @@
 				57CAB1331D7832E000FD8E47 /* polyline.svg in Resources */,
 				57CAB1311D7832E000FD8E47 /* line.svg in Resources */,
 				57B7A4DF1EE70D17009D78D7 /* logo.png in Resources */,
+				C4BD40B61F8E7905003034F0 /* pathbounds.svg in Resources */,
 				57CAB1321D7832E000FD8E47 /* polygon.svg in Resources */,
 				57CAB12F1D7832E000FD8E47 /* ellipse.svg in Resources */,
 				57CAB1341D7832E000FD8E47 /* rect.svg in Resources */,
