@@ -85,8 +85,8 @@ open class Group: Node {
         return Rect(
             x: r.x + offsetX,
             y: r.y + offsetY,
-            w: r.w + offsetX,
-            h: r.h + offsetY
+            w: r.w - offsetX,
+            h: r.h - offsetY
         )
     }
     
