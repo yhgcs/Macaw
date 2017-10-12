@@ -77,6 +77,19 @@ open class Group: Node {
       union = union?.union(rect: nodeBounds) ?? nodeBounds
     }
     
+    
+    if let r = union {
+        let offsetX = r.x < 0.0 ? -r.x : 0.0
+        let offsetY = r.y < 0.0 ? -r.y : 0.0
+        
+        return Rect(
+            x: r.x + offsetX,
+            y: r.y + offsetY,
+            w: r.w + offsetX,
+            h: r.h + offsetY
+        )
+    }
+    
     return union
   }
   
